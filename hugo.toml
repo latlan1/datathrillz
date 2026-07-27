@@ -1,0 +1,31 @@
+baseURL = 'https://datathrillz.com/'
+locale = 'en-us'
+title = 'DataThrillz'
+theme = 'PaperMod'
+enableInlineShortcodes = true
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  description = 'Practical guide to all things Data Science, Machine Learning and Python'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 2
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 3
