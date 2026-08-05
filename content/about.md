@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 date: 2020-08-10T16:48:05Z
-type: page
 draft: false
 ---
 
